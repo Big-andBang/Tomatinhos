@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("https://www.hola.com/horizon/square/0c703ad8337b-cultivar-plantas-tomateras-t.jpg?im=Resize=(640),type=downsize");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    color: rgb(245,255,250);
+    text-align: center;
+    margin: 40px;
+    font-size: 1.2rem;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+input, select, textarea{
+    font-size: inherit;
+}
+
+.container{
+    max-width: 700px;
+    max-height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0px auto 40px auto;
+    border-radius: 5px;
+}
+
+.form{
+    padding: 40px;
+}
+
+.form label,.form p{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.form-grupo input, .form select{
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    margin-bottom: 18px;
+}
+
+.form-grupo select{
+    cursor: pointer;
+}
